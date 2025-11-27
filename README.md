@@ -1,73 +1,64 @@
-# Welcome to your Lovable project
+# Employee Task Tracker - Frontend Web Application
 
-## Project info
+### ProU Technology  
+### Frontend – Web Development Assignment (Track 1)
 
-**URL**: https://lovable.dev/projects/caab854d-6074-4b07-a9bc-83f9d8d0d6c0
+## 🚀 Overview
+This project is a **single-page Employee Task Tracker web application** built as part of the **ProU Technology Frontend Internship Coding Challenge**.
 
-## How can I edit this code?
+The backend is still under development, so this project uses **mock JSON data** to simulate real API responses.  
+The goal of this assignment is to demonstrate strong frontend skills, clean architecture, UI design, and interactive functionality.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 📌 Features
+### 👥 Employee & Task Management
+- View a list of employees and their assigned tasks  
+- See task status: **Pending**, **In Progress**, **Completed**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/caab854d-6074-4b07-a9bc-83f9d8d0d6c0) and start prompting.
+### 🔍 Task Filtering
+- Filter tasks dynamically based on status  
 
-Changes made via Lovable will be committed automatically to this repo.
+### ➕ Add New Tasks (Frontend-Only)
+- Add tasks using a simple form  
+- Data updates instantly (in-memory/mock only)
 
-**Use your preferred IDE**
+### 📊 Dashboard Summary
+- Total tasks  
+- Completed task percentage  
+- Breakdown of task statuses  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 💡 Additional Highlights
+- Fully responsive UI  
+- Clean and modern design  
+- Smooth interactions and intuitive layout  
+- Built with reusable components  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
+
+## 🛠️ Technologies Used
+This project is built using:
+
+- **React**
+- **TypeScript**
+- **Vite**
+- **Tailwind CSS**
+- **shadcn-ui** (for beautiful UI components)
+
+---
 
 Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone https://github.com/Princy51jain/emptrack-light.git
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd emptrack-light
 
 # Step 3: Install the necessary dependencies.
-npm i
+npm install
 
 # Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/caab854d-6074-4b07-a9bc-83f9d8d0d6c0) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
