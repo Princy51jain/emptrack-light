@@ -62,3 +62,18 @@ npm install
 # Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
+## 🧠 Assumptions Made
+- All data is stored locally in JSON or in-memory state (no backend).
+- Task IDs are auto-generated or manually incremented.
+- No authentication is required.
+- Dashboard stats are computed client-side.
+
+## 🏗️ Development Practices
+This project follows modern frontend best practices:
+
+- Component-based architecture
+- React hooks: useState, useEffect
+- Clear naming and folder structure
+- Consistent indentation & code formatting
+- Reusable UI elements
+- Clean state handling & conditional rendering
